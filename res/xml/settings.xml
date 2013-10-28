@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+        android:title="App settings"
+        android:key="app_settings">
+        
+        <ListPreference
+            android:key="location_update"
+            android:title="Update Frequency"
+            android:summary="How often GPS location updates"
+            android:defaultValue="3"
+            android:entries="@array/updateInterval"
+            android:entryValues="@array/updateIntervalValues"
+        ></ListPreference>
+        <ListPreference
+            android:key="m_km"
+            android:title="Units for mesurement"
+            android:summary="Display units in Miles or Kilometers"
+            android:defaultValue="0"
+            android:entries="@array/units"
+            android:entryValues="@array/updateunits"
+        ></ListPreference>
+        <ListPreference
+            android:key="distance"
+            android:title="Maximum GPS Accuracy"
+            android:summary="Set the worst cast accuracy for GPS lock"
+            android:defaultValue="5"
+            android:entries="@array/accuracy"
+            android:entryValues="@array/accuracyEnt"
+        ></ListPreference>
+        <ListPreference
+            android:key="alt"
+            android:title="Method of Altitude Calculation"
+            android:summary="Collect altitude from GPS or from map data"
+            android:defaultValue="0"
+            android:entries="@array/altEnt"
+            android:entryValues="@array/alt"
+        ></ListPreference>
+        <ListPreference
+            android:key="dist"
+            android:title="Minimum Distance to Track"
+            android:summary="Minimum distance to travel before GPS updates"
+            android:defaultValue="3"
+            android:entries="@array/distEnt"
+            android:entryValues="@array/dist"
+        ></ListPreference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

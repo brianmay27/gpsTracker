@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GPS tracker</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="map_name">Map view</string>
+    <string name="distance">Total Distance:</string>
+    <string name="speed">Average Speed:</string>
+    <string name="time">Total Time:</string>
+    <string name="alt">Change in Alt:</string>
+    <string name="settings">Settings</string>
+    <string name="status">GPS Status:</string>
+    <string name="initStatus">Initializing GPS</string>
+    <string name="tracker">Tracker</string>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="App Settings" android:key="main_settings">
+        <EditTextPreference android:title="User name" android:key="userName" android:enabled="true" android:defaultValue="default" android:dialogTitle="User name" android:dialogMessage="Enter a user name"/>
+        <EditTextPreference android:title="Host Name" android:key="hostName" android:enabled="true" android:defaultValue="0.0.0.0:8888" android:dialogTitle="Host Name" android:dialogMessage="Provide the host name to the server"/>
+    </PreferenceCategory>
+    
+    
+
+</PreferenceScreen>
