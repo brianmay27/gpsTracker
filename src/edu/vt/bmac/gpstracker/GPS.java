@@ -46,8 +46,8 @@ import org.apache.http.protocol.HttpContext;
 *  mainActivity class and will run in the background.
 *
 *
-*  @author Brian McNamara (bmac), Anthony Allen(ala2555), Chris Pan (chrisp3)
-*  @version Apr 3, 2013
+*  @author Brian McNamara
+*  @version 10 27, 2013
 */
 public class GPS implements LocationListener, Serializable
 {

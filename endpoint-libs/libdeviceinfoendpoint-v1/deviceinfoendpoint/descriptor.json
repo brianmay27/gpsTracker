@@ -1,13 +1,13 @@
 {
   "files": [
     {
-      "downloadUrl": "/downloads/deviceinfoendpoint/v1/20131028021353/java/1.16.0-rc/vt.edu-deviceinfoendpoint-v1-20131028021353-java-1.16.0-rc-sources.jar", 
-      "path": "vt.edu-deviceinfoendpoint-v1-20131028021353-java-1.16.0-rc-sources.jar", 
+      "downloadUrl": "/downloads/deviceinfoendpoint/v1/20131028094542/java/1.16.0-rc/vt.edu-deviceinfoendpoint-v1-20131028094542-java-1.16.0-rc-sources.jar", 
+      "path": "vt.edu-deviceinfoendpoint-v1-20131028094542-java-1.16.0-rc-sources.jar", 
       "type": "source", 
-      "timestamp": "2013-10-28 02:13"
+      "timestamp": "2013-10-28 09:45"
     }, 
     {
-      "path": "vt.edu-deviceinfoendpoint-v1-20131028021353-java-1.16.0-rc.jar.properties", 
+      "path": "vt.edu-deviceinfoendpoint-v1-20131028094542-java-1.16.0-rc.jar.properties", 
       "type": "android.properties"
     }
   ], 
@@ -702,5 +702,5 @@
   "packagePath": "bmac.gpstracker", 
   "language_version": "1.16.0-rc", 
   "id": "deviceinfoendpoint:v1", 
-  "revision": 20131028021353
+  "revision": 20131028094542
 }

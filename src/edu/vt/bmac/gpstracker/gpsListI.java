@@ -4,8 +4,8 @@ package edu.vt.bmac.gpstracker;
 /**
  *  interface for the GPS List which stores Locations to be analyzed later
  *
- *  @author Brian McNamara (bmac), Anthony Allen(ala2555), Chris Pan (chrisp3)
- *  @version Apr 30, 2013
+ *   @author Brian McNamara
+*  @version 10 27, 2013
  */
 public interface gpsListI
 {

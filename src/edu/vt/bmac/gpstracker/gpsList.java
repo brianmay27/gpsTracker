@@ -11,8 +11,8 @@ import java.util.ArrayList;
  *  Some items may not be used but I wanted to get them to work so I did a quick
  *  Implementation. Everything works so it should not be a problem going on.
  *
- *  @author Brian McNamara (bmac), Anthony Allen(ala2555), Chris Pan (chrisp3)
- *  @version Apr 2, 2013
+ *   @author Brian McNamara
+*  @version 10 27, 2013
  */
 public class gpsList implements gpsListI, Serializable
 {

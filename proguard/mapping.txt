@@ -5584,6 +5584,7 @@ edu.vt.bmac.gpstracker.trailendpoint.model.CollectionResponseTrail -> edu.vt.bma
 edu.vt.bmac.gpstracker.trailendpoint.model.Node -> edu.vt.bmac.gpstracker.d.a.b:
     java.lang.Float accuracy -> accuracy
     java.lang.Double alt -> alt
+    java.lang.Long id -> id
     java.lang.Double lat -> lat
     java.lang.Double lon -> lon
     java.lang.Integer satalites -> satalites
@@ -5593,6 +5594,7 @@ edu.vt.bmac.gpstracker.trailendpoint.model.Node -> edu.vt.bmac.gpstracker.d.a.b:
     edu.vt.bmac.gpstracker.trailendpoint.model.Node setAccuracy(java.lang.Float) -> a
     java.lang.Double getAlt() -> e
     edu.vt.bmac.gpstracker.trailendpoint.model.Node setAlt(java.lang.Double) -> a
+    edu.vt.bmac.gpstracker.trailendpoint.model.Node setId(java.lang.Long) -> a
     java.lang.Double getLat() -> f
     edu.vt.bmac.gpstracker.trailendpoint.model.Node setLat(java.lang.Double) -> b
     java.lang.Double getLon() -> h
@@ -5602,7 +5604,7 @@ edu.vt.bmac.gpstracker.trailendpoint.model.Node -> edu.vt.bmac.gpstracker.d.a.b:
     java.lang.Float getSpeed() -> j
     edu.vt.bmac.gpstracker.trailendpoint.model.Node setSpeed(java.lang.Float) -> b
     java.lang.Long getTime() -> k
-    edu.vt.bmac.gpstracker.trailendpoint.model.Node setTime(java.lang.Long) -> a
+    edu.vt.bmac.gpstracker.trailendpoint.model.Node setTime(java.lang.Long) -> b
     edu.vt.bmac.gpstracker.trailendpoint.model.Node set(java.lang.String,java.lang.Object) -> a
     edu.vt.bmac.gpstracker.trailendpoint.model.Node clone() -> l
     com.google.api.client.json.GenericJson clone() -> b

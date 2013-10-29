@@ -23,8 +23,8 @@ import java.util.ArrayList;
  *  list imported somehow
  *  http://www.vogella.com/articles/AndroidGoogleMaps/article.html
  *
- *  @author Brian McNamara (bmac), Anthony Allen(ala2555), Chris Pan (chrisp3)
- *  @version Apr 4, 2013
+ *   @author Brian McNamara
+*  @version 10 27, 2013
  */
 public class MapsActivity
     extends Activity

@@ -38,8 +38,8 @@ import java.util.concurrent.ExecutionException;
  *  when new information is received.
  *
  *
- *  @author Brian McNamara (bmac), Anthony Allen(ala2555), Chris Pan (chrisp3)
- *  @version Apr 4, 2013
+ *   @author Brian McNamara
+*  @version 10 27, 2013
  */
 public class MainActivity
     extends ListActivity
@@ -212,8 +212,8 @@ public class MainActivity
           trail.setName(in[0].getName());
           trail.setSpeed(in[0].getSpeed());
           trail.setTime(in[0].getTime());
-          //Key key = new Key().setAppId("t").setId(Long.valueOf(in[0].getName().hashCode())).setKind("Trail").setNamespace("edu.vt.bmac.gpstracker").setParent(null).setComplete(true);
-          //trail.setKey(key);
+//          Key key = new Key().setAppId(null).setId(Long.valueOf(in[0].getName().hashCode())).setKind("Trail").setNamespace("edu.vt.bmac.gpstracker").setParent(null).setComplete(true);
+//          trail.setKey(key);
 
           trail.setUsername(in[0].getUsername());
           List<Node> nodes = new ArrayList<Node>();
@@ -226,7 +226,7 @@ public class MainActivity
               newNode.setSatalites(node.getSat());
               newNode.setSpeed(0.0f);
               newNode.setTime(node.getTime().getTimeInMillis());
-              //newNode.setTrail(trail);
+              newNode.setId(Long.valueOf(in[0].getId() + 1));
               nodes.add(newNode);
           }
           trail.setPlots(nodes);

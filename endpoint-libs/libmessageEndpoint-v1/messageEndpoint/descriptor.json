@@ -1,13 +1,13 @@
 {
   "files": [
     {
-      "downloadUrl": "/downloads/messageEndpoint/v1/20131028021412/java/1.16.0-rc/vt.edu-messageEndpoint-v1-20131028021412-java-1.16.0-rc-sources.jar", 
-      "path": "vt.edu-messageEndpoint-v1-20131028021412-java-1.16.0-rc-sources.jar", 
+      "downloadUrl": "/downloads/messageEndpoint/v1/20131028094559/java/1.16.0-rc/vt.edu-messageEndpoint-v1-20131028094559-java-1.16.0-rc-sources.jar", 
+      "path": "vt.edu-messageEndpoint-v1-20131028094559-java-1.16.0-rc-sources.jar", 
       "type": "source", 
-      "timestamp": "2013-10-28 02:14"
+      "timestamp": "2013-10-28 09:46"
     }, 
     {
-      "path": "vt.edu-messageEndpoint-v1-20131028021412-java-1.16.0-rc.jar.properties", 
+      "path": "vt.edu-messageEndpoint-v1-20131028094559-java-1.16.0-rc.jar.properties", 
       "type": "android.properties"
     }
   ], 
@@ -702,5 +702,5 @@
   "packagePath": "bmac.gpstracker", 
   "language_version": "1.16.0-rc", 
   "id": "messageEndpoint:v1", 
-  "revision": 20131028021412
+  "revision": 20131028094559
 }

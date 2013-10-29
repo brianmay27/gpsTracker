@@ -6,8 +6,8 @@ import java.util.EventListener;
 /**
  *  Used to help impliment the gps to allow the activity to update
  *
- *  @author Brian McNamara (bmac), Anthony Allen(ala2555), Chris Pan (chrisp3)
- *  @version Apr 7, 2013
+ *   @author Brian McNamara
+*  @version 10 27, 2013
  */
 public interface GpsListener extends EventListener
 {

@@ -1,13 +1,13 @@
 {
   "files": [
     {
-      "downloadUrl": "/downloads/trailendpoint/v1/20131028021401/java/1.16.0-rc/vt.edu-trailendpoint-v1-20131028021401-java-1.16.0-rc-sources.jar", 
-      "path": "vt.edu-trailendpoint-v1-20131028021401-java-1.16.0-rc-sources.jar", 
+      "downloadUrl": "/downloads/trailendpoint/v1/20131028094548/java/1.16.0-rc/vt.edu-trailendpoint-v1-20131028094548-java-1.16.0-rc-sources.jar", 
+      "path": "vt.edu-trailendpoint-v1-20131028094548-java-1.16.0-rc-sources.jar", 
       "type": "source", 
-      "timestamp": "2013-10-28 02:14"
+      "timestamp": "2013-10-28 09:45"
     }, 
     {
-      "path": "vt.edu-trailendpoint-v1-20131028021401-java-1.16.0-rc.jar.properties", 
+      "path": "vt.edu-trailendpoint-v1-20131028094548-java-1.16.0-rc.jar.properties", 
       "type": "android.properties"
     }
   ], 
@@ -702,5 +702,5 @@
   "packagePath": "bmac.gpstracker", 
   "language_version": "1.16.0-rc", 
   "id": "trailendpoint:v1", 
-  "revision": 20131028021401
+  "revision": 20131028094548
 }

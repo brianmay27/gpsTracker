@@ -11,8 +11,8 @@ import android.text.format.Time;
 /**
  *  Used to store gps info, time and altitude.
  *
- *  @author Brian McNamara (bmac), Anthony Allen(ala2555), Chris Pan (chrisp3)
- *  @version Mar 31, 2013
+ *  @author Brian McNamara
+*  @version 10 27, 2013
  */
 
 public class Node implements Serializable

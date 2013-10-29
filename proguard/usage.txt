@@ -3313,13 +3313,25 @@ edu.vt.bmac.gpstracker.messagedataendpoint.MessagedataendpointScopes
 edu.vt.bmac.gpstracker.messagedataendpoint.model.CollectionResponseMessageData
 edu.vt.bmac.gpstracker.messagedataendpoint.model.Key
 edu.vt.bmac.gpstracker.messagedataendpoint.model.MessageData
+edu.vt.bmac.gpstracker.nodeendpoint.Nodeendpoint
+edu.vt.bmac.gpstracker.nodeendpoint.Nodeendpoint$Builder
+edu.vt.bmac.gpstracker.nodeendpoint.Nodeendpoint$GetNode
+edu.vt.bmac.gpstracker.nodeendpoint.Nodeendpoint$InsertNode
+edu.vt.bmac.gpstracker.nodeendpoint.Nodeendpoint$ListNode
+edu.vt.bmac.gpstracker.nodeendpoint.Nodeendpoint$RemoveNode
+edu.vt.bmac.gpstracker.nodeendpoint.Nodeendpoint$UpdateNode
+edu.vt.bmac.gpstracker.nodeendpoint.NodeendpointRequest
+edu.vt.bmac.gpstracker.nodeendpoint.NodeendpointRequestInitializer
+edu.vt.bmac.gpstracker.nodeendpoint.NodeendpointScopes
+edu.vt.bmac.gpstracker.nodeendpoint.model.CollectionResponseNode
+edu.vt.bmac.gpstracker.nodeendpoint.model.Node
 edu.vt.bmac.gpstracker.trailendpoint.Trailendpoint:
     public static final java.lang.String DEFAULT_ROOT_URL
     public static final java.lang.String DEFAULT_SERVICE_PATH
     public static final java.lang.String DEFAULT_BASE_URL
     104:105:public Trailendpoint(com.google.api.client.http.HttpTransport,com.google.api.client.json.JsonFactory,com.google.api.client.http.HttpRequestInitializer)
-    129:131:public edu.vt.bmac.gpstracker.trailendpoint.Trailendpoint$GetTrail getTrail(java.lang.String)
-    423:425:public edu.vt.bmac.gpstracker.trailendpoint.Trailendpoint$RemoveTrail removeTrail(java.lang.String)
+    129:131:public edu.vt.bmac.gpstracker.trailendpoint.Trailendpoint$GetTrail getTrail(java.lang.Long)
+    423:425:public edu.vt.bmac.gpstracker.trailendpoint.Trailendpoint$RemoveTrail removeTrail(java.lang.Long)
     516:518:public edu.vt.bmac.gpstracker.trailendpoint.Trailendpoint$UpdateTrail updateTrail(edu.vt.bmac.gpstracker.trailendpoint.model.Trail)
 edu.vt.bmac.gpstracker.trailendpoint.Trailendpoint$Builder:
     644:644:public edu.vt.bmac.gpstracker.trailendpoint.Trailendpoint$Builder setHttpRequestInitializer(com.google.api.client.http.HttpRequestInitializer)
@@ -3398,22 +3410,10 @@ edu.vt.bmac.gpstracker.trailendpoint.model.CollectionResponseTrail:
     57:58:public edu.vt.bmac.gpstracker.trailendpoint.model.CollectionResponseTrail setItems(java.util.List)
     65:65:public java.lang.String getNextPageToken()
     72:73:public edu.vt.bmac.gpstracker.trailendpoint.model.CollectionResponseTrail setNextPageToken(java.lang.String)
+edu.vt.bmac.gpstracker.trailendpoint.model.Node:
+    116:116:public java.lang.Long getId()
 edu.vt.bmac.gpstracker.trailendpoint.model.Trail:
     128:128:public java.lang.Long getHash()
-edu.vt.bmac.gpstracker.trailsendpoint.Trailsendpoint
-edu.vt.bmac.gpstracker.trailsendpoint.Trailsendpoint$Builder
-edu.vt.bmac.gpstracker.trailsendpoint.Trailsendpoint$GetTrails
-edu.vt.bmac.gpstracker.trailsendpoint.Trailsendpoint$InsertTrails
-edu.vt.bmac.gpstracker.trailsendpoint.Trailsendpoint$ListTrails
-edu.vt.bmac.gpstracker.trailsendpoint.Trailsendpoint$RemoveTrails
-edu.vt.bmac.gpstracker.trailsendpoint.Trailsendpoint$UpdateTrails
-edu.vt.bmac.gpstracker.trailsendpoint.TrailsendpointRequest
-edu.vt.bmac.gpstracker.trailsendpoint.TrailsendpointRequestInitializer
-edu.vt.bmac.gpstracker.trailsendpoint.TrailsendpointScopes
-edu.vt.bmac.gpstracker.trailsendpoint.model.CollectionResponseTrails
-edu.vt.bmac.gpstracker.trailsendpoint.model.Node
-edu.vt.bmac.gpstracker.trailsendpoint.model.Trail
-edu.vt.bmac.gpstracker.trailsendpoint.model.Trails
 javax.annotation.CheckForNull
 javax.annotation.CheckForSigned
 javax.annotation.CheckReturnValue
